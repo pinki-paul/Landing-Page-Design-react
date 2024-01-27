@@ -1,0 +1,60 @@
+.parent-container {
+    height: 100vh;
+}
+
+.parts {
+    height: 100%;
+}
+
+.part1 {
+    height: 100%;
+    width: 50%;
+    background: #D1913C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.part2 {
+    height: 100%;
+    width: 50%;
+    background: #ffb347;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffcc33, #ffb347);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffcc33, #ffb347);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.part1 h3{
+    font-size: 2.677rem;
+    font-weight: 600;
+    font-family: cursive;
+    padding: 1rem 1.5rem;
+    color: #fff;
+}
+.part2 h3{
+    font-size: 2.677rem;
+    font-weight: 600;
+    font-family: cursive;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+.separator-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.separator-text span{
+    color: #fff;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 2.28rem;
+    font-weight: 800;
+    font-family: cursive;
+}
